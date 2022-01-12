@@ -20,9 +20,6 @@ public class CardDeliveryTest {
         return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
 
-    @BeforeEach
-
-
 
     @Test
     public void shouldSendFormWithADateIn4Days() {
